@@ -1,6 +1,6 @@
-package UFRN.IMD.BR.modelo;
+package IMD.UFRN.BR.modelo;
 
-public interface ITributavel {
+interface ITributavel {
 
 	double calcularTributos();
 
