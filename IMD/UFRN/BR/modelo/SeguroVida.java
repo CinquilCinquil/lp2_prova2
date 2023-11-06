@@ -2,8 +2,8 @@ package IMD.UFRN.BR.modelo;
 
 public class SeguroVida {
 	
-	int numero;
-	String beneficiado;
-	double valor, taxa;
+	private int numero;
+	private String beneficiado;
+	private double valor, taxa;
 	
 }
