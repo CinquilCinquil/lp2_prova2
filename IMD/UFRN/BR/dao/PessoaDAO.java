@@ -12,7 +12,7 @@ public class PessoaDAO {
 		pessoas = new ArrayList<Pessoa>();
 	}
 	
-	public void cadastrarPessoa(Pessoa p) {
+	public void cadastraPessoa(Pessoa p) {
 		
 	}
 	
@@ -20,11 +20,11 @@ public class PessoaDAO {
 		
 	}
 	
-	public void listarPessoas() {
+	public void listaPessoas() {
 		
 	}
 	
-	public void calcularTributosPessoas() {
+	public void CalcularTributosPessoas() {
 		
 	}
 	

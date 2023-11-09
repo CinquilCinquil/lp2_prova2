@@ -6,7 +6,6 @@ public class ContaCorrente {
 	private	String numero;
 	private double saldo;
 	
-	
 	public void sacar(double valor) {
 		
 	}
@@ -17,6 +16,30 @@ public class ContaCorrente {
 	
 	public boolean transferir(double valor, ContaCorrente cc) {
 		return false;
+	}
+	
+	public void setAgencia(String agencia) {
+		this.agencia = agencia;
+	}
+	
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+	
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	
+	public String getAgencia() {
+		return agencia;
+	}
+	
+	public String getNumero() {
+		return numero;
+	}
+	
+	public double getSaldo() {
+		return saldo;
 	}
 	
 }
