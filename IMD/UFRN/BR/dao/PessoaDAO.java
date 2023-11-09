@@ -2,8 +2,15 @@ package IMD.UFRN.BR.dao;
 
 public class PessoaDAO {
 	
-	public void cadastrarPessoa(Pessoa);
-	public void removerPessoa(Pessoa);
+	ArrayList<Pessoa> pessoas;
+	
+	public PessoaDAO()
+	{
+		pessoas = new ArrayList<Pessoa>();
+	}
+	
+	public void cadastrarPessoa(Pessoa p);
+	public void removerPessoa(Pessoa p);
 	public void listarPessoas();
 	public void calcularTributosPessoas();
 	public void imprimeImpostoTotal();
