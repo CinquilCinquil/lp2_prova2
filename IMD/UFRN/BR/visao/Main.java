@@ -3,6 +3,7 @@ package IMD.UFRN.BR.visao;
 import IMD.UFRN.BR.modelo.Pessoa;
 import IMD.UFRN.BR.modelo.SeguroVida;
 import IMD.UFRN.BR.modelo.ContaCorrente;
+import IMD.UFRN.BR.dao.PessoaDAO;
 
 public class Main {
 

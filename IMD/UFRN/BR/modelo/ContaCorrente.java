@@ -16,7 +16,7 @@ public class ContaCorrente {
 	}
 	
 	public boolean transferir(double valor, ContaCorrente cc) {
-		
+		return false;
 	}
 	
 }
