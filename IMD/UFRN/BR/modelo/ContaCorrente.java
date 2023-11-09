@@ -7,11 +7,11 @@ public class ContaCorrente {
 	private double saldo;
 	
 	public void sacar(double valor) {
-		
+		saldo -= valor;
 	}
 	
 	public void depositar(double valor) {
-		
+		saldo += valor;
 	}
 	
 	public boolean transferir(double valor, ContaCorrente cc) {
