@@ -30,7 +30,15 @@ public class PessoaDAO {
 	}
 	
 	public double CalcularTributosPessoas() {
-		return 0.0;
+		
+		double tributosTotais = 0.0;
+		
+		for (Pessoa p : pessoas)
+		{
+			tributosTotais += 31.5 + p.getConta().getSaldo() * 0.0038;
+		}
+		
+		return tributosTotais;
 	}
 	
 	public void imprimeImpostoTotal() {
