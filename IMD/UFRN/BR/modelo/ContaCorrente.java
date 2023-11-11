@@ -1,10 +1,14 @@
 package IMD.UFRN.BR.modelo;
 
-public class ContaCorrente {
+public class ContaCorrente implements ITributavel {
 	
 	private String agencia;
 	private	String numero;
 	private double saldo;
+	
+	public double calcularTributos() {
+		return saldo * 0.0038;
+	}
 	
 	public void sacar(double valor) {
 		saldo -= valor;

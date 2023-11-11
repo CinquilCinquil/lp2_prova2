@@ -7,11 +7,18 @@ import java.util.List;
 public class GeradorImpostoRenda
 {
     private double TRIBUTO_SALARIO = 0.11;
+	private double totalTributo = 0.0;
 
     public double calculaValorTotalTributo(Pessoa pessoa)
     {
-        return pessoa.getConta().calcularTributos() +
+		totalTributo = pessoa.getConta().calcularTributos() +
             pessoa.getSeguro().calcularTributos() +
             pessoa.getSalario() * this.TRIBUTO_SALARIO;
+			
+        return totalTributo;
     }
+	
+	public double getTotalTributo() {
+		return totalTributo;
+	}
 }

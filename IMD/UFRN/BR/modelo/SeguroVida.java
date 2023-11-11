@@ -1,10 +1,14 @@
 package IMD.UFRN.BR.modelo;
 
-public class SeguroVida {
+public class SeguroVida implements ITributavel {
 	
 	private int numero;
 	private String beneficiado;
 	private double valor, taxa;
+	
+	public double calcularTributos() {
+		return 31.5;
+	}
 	
 	public int getNumero() {
 		return numero;
